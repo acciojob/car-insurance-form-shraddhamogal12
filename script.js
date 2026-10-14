@@ -8,9 +8,9 @@
 	<br><br>
 	<label>Gender</label>
 	<label for="male">Male</label>
-    <input type="radio" id="male" name="male" value="male">
-	<label for="female">Female</label>
-    <input type="radio" id="female" name="female" value="female">
+    <input type="radio" id="male" name="gender" value="male">
+    <label for="female">Female</label>
+    <input type="radio" id="female" name="gender" value="female">
 	<br><br>
 	<label for="cars">Car brands</label>
    <select id="cars" name="car">
