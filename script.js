@@ -1,5 +1,5 @@
 //your code here
-<form>
+<form method="post">
 	<label for="name">Name</label>
     <input type="text" id="name" required>
 	<br><br>
@@ -7,8 +7,8 @@
      <input type="email" id="email" required>
 	<br><br>
 	<label>Gender</label>
-	<label for="gender">Male</label>
-    <input type="radio" id="gender" name="male" value="male">
+	<label for="male">Male</label>
+    <input type="radio" id="male" name="male" value="male">
 	<label for="female">Female</label>
     <input type="radio" id="female" name="female" value="female">
 	<br><br>
@@ -17,7 +17,7 @@
 	<option value="BMW">BMW</option>
     <option value="Mercedez">Mercedes</option>
     <option value="Audi">Audi</option>
-<select>
+	</select>
 	<br><br>
 	<label for="carage">car age</label>
 	<input type="number" id="carage" required>
@@ -28,7 +28,7 @@
 	<label for="password">Password</label>
     <input type="password" id="password" required>
 	<br><br>
-	<button type="submit">Submit</label>
+	<button type="submit">Submit</button>
 	</form>
 	
 
